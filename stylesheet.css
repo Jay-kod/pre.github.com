@@ -1,0 +1,750 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(240, 232, 217);
+}
+
+nav .logo {
+    width: 60px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px;    
+}
+ 
+@media screen and (min-width: 600px) {
+    nav .logo {
+        width: 60px;
+        display: flex;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    nav .logo {
+        width: 40px;
+        height: 50px;
+        display: flex;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+nav .right {
+    display: flexbox;
+    flex-direction: column;
+    margin-left: 560px;
+}
+@media screen and (min-width: 600px) {
+    nav .right {
+        margin-left: 560px;
+    }
+}
+  
+@media screen and (max-width: 400px) {
+    nav .right {
+        margin-left: 140px;
+    }
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+nav ul li {
+    padding: 20px 20px 0px 20px;
+}
+nav ul li a:hover {
+    color: green;
+}
+@media screen and (min-width: 600px) {
+    nav ul li {
+        padding: 20px 20px 0px 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    nav ul li {
+        padding: 20px 5px 0px 5px;
+    }
+    nav ul li a:hover {
+        color: green;
+    }
+}
+.icons {
+    padding: 10px;
+}
+@media screen and (min-width: 600px) {
+    .icons {
+        padding: 10px;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .icons {
+        margin: 0px;
+    }
+}
+.icon {
+    width: 30px;
+    padding-top: 14px;
+    margin-right: 10px;
+}
+@media screen and (min-width: 600px) {
+    .icon {
+        width: 30px;
+    }
+} 
+@media screen and (max-width: 600px) {
+    .icon {
+        display: none;
+    }
+}
+
+/* first container starts */
+.kon {
+    background-color: rgb(60, 97, 92);
+    background-image: url(images/first-back.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+}
+@media screen and (min-width: 600px) {
+    .kon {
+        width: 100%;
+        padding-top: 120px;
+    }
+} 
+@media screen and (max-width: 600px) {
+    .kon {
+        width: 500px;
+        height: 400px;
+        padding-top: 80px;
+    }
+}
+.kon .p1 {
+    display: flex;
+    margin-top: 60px;
+    font-size: 4.5em;
+    font-family: serif;
+    padding-left: 150px;
+}
+.kon p {
+    font-size: 1.34em;
+}
+@media screen and (min-width: 600px) {
+    .kon .p1 {
+        display: flex;
+        padding-top: 60px;
+        font-size: 4.5em;
+        font-family: serif;
+        padding-left: 150px;
+    }
+    .kon p {
+        font-size: 1.34em;
+    }
+} 
+@media screen and (max-width: 400px) {
+    .kon .p1 {
+        display: flex;
+        font-size: 1.5em;
+        font-family: serif;
+        padding-left: 70px;
+        padding-top: 70px;
+
+    }
+    .kon p {
+        display: none;
+    }
+}
+button {
+    background-color: white;
+    margin-top: 30px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 6px; 
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+button a {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+button a:hover {
+    background-color: black;
+    color: white;
+}
+@media screen and (min-width: 600px) {
+    button {
+        width: 150px;
+        padding: 10px;
+    }
+    button:hover {
+        background-color: black;
+        color: white;
+    }
+    button a {
+        font-size: 1.2em;
+    }
+    button a:hover {
+        background-color: black;
+        color: white;
+    }
+} 
+@media screen and (max-width: 400px) {
+    button {
+        width: 120px;
+        padding: 10px;
+        margin-right: 80px;
+    }
+    button:hover {
+        background-color: black;
+        color: white;
+    }
+    button a {
+        font-size: 1.0em;
+    }
+    button a:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+/* second container starts */
+.second-con {
+    display: flex;
+    flex-direction: row;
+}
+.pp2 {
+    padding-top: 120px;
+    padding-left: 5px;
+    font-size: 3.5em;
+    padding-bottom: 15px;
+}
+.pps {
+    font-size: 1em;
+}
+.ppb a {
+    font-weight: lighter;
+}
+.rightx {
+    margin-left: 40px;
+    width: 570px;
+}
+.ii5 {
+    margin-top: 100px;
+    width: 100%;
+}
+@media screen and (min-width: 600px) {
+    .second-con {
+        display: flex;
+        flex-direction: row;
+    }
+    .pp2 {
+        padding-top: 150px;
+        padding-left: 5px;
+        font-size: 3.5em;
+        padding-bottom: 15px;
+    }
+    .ppb a {
+        font-weight: lighter;
+    }
+    .rightx {
+        margin-left: 40px;
+        width: 570px;
+    }
+    .ii5 {
+        margin-top: 100px;
+        width: 100%;
+    }
+} 
+@media screen and (max-width: 600px) {
+    .second-con {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftx {
+        padding: 10px;
+        width: 380px;
+        text-align: center;
+    }
+    .pp2 {
+        padding-top: 70px;
+        padding-left: 5px;
+        font-size: 2.5em;
+        padding-bottom: 15px;
+    }
+    .ppb {
+        margin-left: 100px;
+    }
+    .ppb a {
+        font-weight: lighter;
+    }
+    .rightx {
+        margin-left: -5px;
+        width: 400px;
+    }
+    .ii5 {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+
+/* third container starts */
+.teext-div{
+    background-color: rgb(253, 243, 223);
+    padding: 80px 40px 40px 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+}
+.teext-div .pdp {
+    font-family: 'Times New Roman';
+    font-size: 2.0em;
+    font-weight: bold;
+    text-align: center;
+}
+.small {
+    padding-left: 450px;
+}
+@media screen and (min-width: 600px) {
+    .teext-div{
+        background-color: rgb(253, 243, 223);
+        padding: 80px 40px 40px 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 300px;
+    }
+    .teext-div .pdp {
+        font-family: 'Times New Roman';
+        font-size: 2.0em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .small {
+        padding-left: 450px;
+    }
+} 
+@media screen and (max-width: 400px) {
+    .teext-div{
+        background-color: rgb(253, 243, 223);
+        padding: 90px 10px 10px 10px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 400px;
+        height: 300px;
+    }
+    .teext-div .pdp {
+        font-family: 'Times New Roman';
+        font-weight: bold;
+        text-align: left;
+        font-size: 1.0em;
+    }
+    .small {
+        display: flex;
+        padding-left: 0px;
+    }
+}
+
+/* fourth container starts */
+.de-general {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.upp {
+    width: 365px;
+    padding: 15px;
+}
+.imakx-1 {
+    display: flex;
+    background-image: url(images/phone-hand-2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+.imakx-2 {
+    display: flex;
+    background-image: url(images/pc-chair.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+.imakx-3 {
+    display: flex;
+    background-image: url(images/phone-hand-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+.down {
+    width: 365px;
+    padding: 15px;
+}
+.w1 {
+    font-size: 2.3em;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .de-general {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .upp {
+        width: 365px;
+        padding: 15px;
+    }
+    .imakx-1 {
+        display: flex;
+        background-image: url(images/phone-hand-2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 300px;
+    }
+    .imakx-2 {
+        display: flex;
+        background-image: url(images/pc-chair.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 300px;
+    }
+    .imakx-3 {
+        display: flex;
+        background-image: url(images/phone-hand-1.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 300px;
+    }
+    .down {
+        width: 365px;
+        padding: 15px;
+    }
+    .w1 {
+        font-size: 2.3em;
+        padding-bottom: 10px;
+    } 
+}
+@media screen and (max-width: 400px) {
+    .de-general {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .upp {
+        width: 390px;
+        padding: 15px;
+    }
+    .imakx-1 {
+        display: flex;
+        background-image: url(images/phone-hand-2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 400px;
+    }
+    .imakx-2 {
+        display: flex;
+        background-image: url(images/pc-chair.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+    }
+    .imakx-3 {
+        display: flex;
+        background-image: url(images/phone-hand-1.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+    }
+    .down {
+        width: 390px;
+        padding: 15px;
+    }
+    .w1 {
+        font-size: 2.3em;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .ppa {
+        text-align: center;
+    }
+    .learn {
+        display: flex;
+        margin-left: 120px;
+    }
+}
+
+/* fifth container starts */
+.fifth {
+    margin: auto;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.left1 {
+    width: 550px;
+}
+.d1 {
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.ddp {
+    font-size: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+}
+.form1 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+input {
+    width: 240px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 5px;
+}
+label {
+    font-size: 1.01em;
+    font-family: sans-serif;
+}
+.right1 {
+    margin-left: 20px;
+}
+textarea {
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.left1 {
+    margin-top: 40px;
+}
+@media screen and (max-width: 992px) {
+    .fifth {
+        margin: auto;
+        padding-top: 120px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .left1 {
+        width: 550px;
+    }
+    .d1 {
+        font-size: 1.6em;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    .ddp {
+        font-size: 1em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .form {
+        display: flex;
+        flex-direction: row;
+    }
+    .form1 {
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    input {
+        width: 240px;
+        height: 30px;
+        padding: 5px;
+        border: 1px solid rgb(165, 163, 163);
+        border-radius: 5px;
+    }
+    label {
+        font-size: 1.01em;
+        font-family: sans-serif;
+    }
+    .right1 {
+        margin-left: 20px;
+    }
+    textarea {
+        width: 500px;
+        height: 200px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .left1 {
+        margin-top: 40px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .fifth {
+        margin: auto;
+        padding-top: 120px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .left1 {
+        width: 390px;
+        margin-top: 40px;
+        text-align: left;
+    }
+    .d1 {
+        font-size: 1.6em;
+        font-weight: bold;
+        font-family: sans-serif;
+        padding-left: 5px;
+    }
+    .ddp {
+        font-size: 1em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+    .ssem {
+        display: flex;
+        padding-top: 10px;
+    }
+    input {
+        display: flex;
+        width: 355px;
+        height: 30px;
+        padding: 5px;
+        border: 1px solid rgb(165, 163, 163);
+        border-radius: 5px;
+        margin-top: -15px;
+    }
+    label {
+        font-size: 1.01em;
+        font-family: sans-serif;
+    }
+    .right1 {
+        width: 390px;
+    }
+    .mess {
+        display: flex;
+        padding-top: 20px;
+    }
+    textarea {
+        display: flex;
+        width: 360px;
+        height: 200px;
+        border-radius: 5px;
+        margin-left: -5px;
+        margin-top: -10px;
+    }
+}
+
+/* footer starts */
+footer {
+    margin-top: 100px;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(240, 232, 217);
+}
+footer .logo {
+    width: 60px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 0px; 
+}
+.rightd {
+    display: flex;
+    flex-direction: row;
+    margin-left: 780px;
+    padding-top: 5px;
+}
+.icond {
+    width: 30px;
+    height: 30px;  
+    margin: 10px;
+}
+@media screen and (max-width: 992px) {
+    footer .logo {
+        width: 60px;
+        display: flex;
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+    .rightd {
+        margin-left: 780px;
+        padding-top: 5px;
+    }
+    .icond {
+        width: 30px;
+        height: 30px;  
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    footer .logo {
+        width: 40px;
+        height: 50px;
+        display: flex;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    .rightd {
+        margin-left: 230px;
+        padding-top: 12px;
+    }
+    .icond {
+        width: 20px;
+        height: 20px;  
+        margin: 5px;
+    }
+}
